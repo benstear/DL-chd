@@ -1,5 +1,8 @@
 [![Build Status](https://travis-ci.org/benstear/DL-chd.svg?branch=master)](https://travis-ci.org/benstear/DL-chd.svg?branch=master)
 
+
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+
 # DL-chd
 Deep Learning for analysis of Congenital Heart Defect genomic variation
 
