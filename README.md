@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/benstear/DL-chd.svg?branch=master)](https://travis-ci.org/benstear/DL-chd.svg?branch=master)
+
 # DL-chd
 Deep Learning for analysis of Congenital Heart Defect genomic variation
 
