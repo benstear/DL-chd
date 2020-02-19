@@ -1,0 +1,10 @@
+name: Workflow using my own action
+on: [push]
+jobs:
+  multiply:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: benstear/biopypir-python-action@master
+      with:
+        myNUM: 8
+
