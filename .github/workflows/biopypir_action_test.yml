@@ -1,7 +1,7 @@
 name: Workflow using my own action
 on: [push]
 jobs:
-  multiply:
+  passrepo:
     runs-on: ubuntu-latest
     steps:
     - uses: benstear/biopypir-python-action@master
