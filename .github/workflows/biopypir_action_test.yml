@@ -7,12 +7,12 @@ jobs:
     - name: STEP_1 Dump GitHub context
       env:
         GITHUB_CONTEXT: ${{ toJson(github) }}
-      run: |
-        echo --------------------
-        echo "$GITHUB_CONTEXT"
-        echo --------------------
+    - name: Dump job context
+      env:
+        JOB_CONTEXT: ${{ toJson(job) }}
+        run: echo "$JOB_CONTEXT"
           
-    - uses: benstear/biopypir-python-action@master
-      with:
-        myrepo: benstear/DL-chd
+    #- uses: benstear/biopypir-python-action@master
+    #  with:
+    #    myrepo: benstear/DL-chd
 
