@@ -4,6 +4,14 @@ jobs:
   passrepo:
     runs-on: ubuntu-latest
     steps:
+    - name: STEP_1 Dump GitHub context
+      env:
+        GITHUB_CONTEXT: ${{ toJson(github) }}
+      run: |
+        echo --------------------
+        echo "$GITHUB_CONTEXT"
+        echo --------------------
+          
     - uses: benstear/biopypir-python-action@master
       with:
         myrepo: benstear/DL-chd
