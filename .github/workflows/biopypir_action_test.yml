@@ -1,11 +1,12 @@
+
 name: Workflow using my own action
 on: [push]
 jobs:
   passrepo:
     runs-on: ubuntu-latest
     steps:
-    - name: STEP_1 Dump GitHub context
     - uses: actions/biopypir-python-action@master
+    - name: STEP_1 Dump GitHub context
       with:
         myrepo: ${{ toJson(github.repository) }} 
 
